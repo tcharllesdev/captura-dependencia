@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vença sua dependência emocional</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <article class="inicio-bg">
+    <div id="inicio" class="inicio container">
+      <h1 class="font-h1 c2">Vença a dependência emocional</h1>
+      <p class="font-p1 c2">Você tem medo de acabar só? Receio de terminar uma relação e nunca mais encontrar alguém bacana? Sente um desconforto no peito quando pensa em ver alguém que você se relaciona partindo?</p>
+      <span class="font-p2 evento c2"><img src="img/icons/check.svg" alt="">Esse evento é para você!</span>
+      <div class="inicio-detalhes">
+        <span class="data font-p1-xs c2"><img src="img/icons/calendario.svg" alt="">Data: 21/06/2022 às 20:00</span>
+        <span class="gratuito font-p1-xs c2"><img src="img/icons/check.svg" alt="">Gratuito e ao vivo</span>
+      </div>
+      <p class="font-p1 c2">Garanta sua vaga, preenchendo abaixo:</p>
+
+      <form method="post" action="https://webhook.sellflux.app/webhook/v2/form/lead/d814f4e3dcf9e6f473e213232b9ba115?not_query=true&redirect_url=https%3A%2F%2Fandremariga.com%2Fobrigado-dependencia">
+        <label for="nome">Nome Completo</label><br>
+        <input type="text" id="name" name="name" value="" placeholder="Nome Completo">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" value="" placeholder="Seu melhor e-mail" required>
+        <label for="phone">WhatsApp</label><br>
+        <input type="tel" class="form-control" id="tel" name="phone" maxlength="15" placeholder="(00) 00000-0000" required>
+        <script type="text/javascript">
+          const tt = document.querySelectorAll("#tel");
+          for (var i = 0; i < tt.length; i++) {
+            let tel = tt[i]
+            let mascaraTelefone = (valor) => {
+              valor = valor.replace(/\D/g, "")
+              valor = valor.replace(/^(\d{2})(\d)/g, "($1) $2")
+              valor = valor.replace(/(\d)(\d{4})$/, "$1-$2")
+              tel.value = valor
+            }
+            tel.addEventListener('keypress', (e) => mascaraTelefone(e.target.value))
+            tel.addEventListener('change', (e) => mascaraTelefone(e.target.value))
+          }
+        </script>
+        <input class="btn font-btn btn-form" type="submit" value="QUERO PARTICIPAR">
+      </form>
+
+      <span class="dados-seguros font-p1-xs c2"><img src="img/icons/seguro.svg" alt=""> Seus dados estão seguros conosco.</span>
+    </div>
+  </article>
+
+  <section class="who-bg">
+    <div class="who container">
+      <div class="who-text">
+        <h1 class="font-h1 c2">Para quem é esse evento?</h1>
+        <div class="who-box">
+          <p class="font-p1 c2">Se você...</p>
+          <p class="font-p1 c2">Tem disposição para aprender sobre relacionamentos, busca constantemente o <b>aperfeiçoamento pessoal</b> e tem pago o preço pelo amadurecimento mas mesmo assim parece que só escolhe tranqueira para se relacionar?</p>
+          <span class="font-p2 evento c2"><img src="img/icons/check.svg" alt="">Esse evento é para você!</span>
+          <p class="font-p1 c2">Vem de uma infância emocionalmente difícil, foi criado (a) dentro de um <b>lar instável</b> e passou muito tempo lidando com <b>autoestima baixa</b> e a sensação de rejeição?</p>
+          <span class="font-p2 evento c2"><img src="img/icons/check.svg" alt="">Esse evento é para você!</span>
+        </div>
+        <div class="who-not">
+          <p>Mas...<br>
+            Se mesmo tento identificação com todos esses padrões acima você acha que <b>"já sabe o suficiente"</b>, <b>"fez terapia o bastante"</b> e não está disposto (a) à olhar para a vida e para os relacionamentos de outra maneira, por favor, <b>não compareça</b>.</p>
+          <p>O evento <b>não</b> é feita para aqueles que adoram assumir o papel de vítima, colocando a responsabilidade pela própria vida nas mãos de outras pessoas.</p>
+          <p>E também <b>não</b> é para quem está sem disposição para a mudança, que adora encher o saco alheio e emitir as <b>"próprias opiniões"</b> sem buscar boas referências.</p>
+          <p>E muito menos aqueles que acreditam na história de que a <b>"resolver as coisas"</b> é fácil... de que conquistar o que se deseja é um processo do dia para noite... e de que tudo cairá do céu, simplesmente, do nada.</p>
+          <p class="who-cta">Então se você busca mudanças de verdade, a hora é agora.</p>
+          <a href="#inicio" class="btn font-btn">Não vou perder</a>
+          <p>Treinamento online e ao vivo<br><br>
+            Dia 21/06/2022 às 20:00</p>
+        </div>
+      </div>
+      <div class="who-mockup">
+        <img src="img/mockup.png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="bio-bg">
+    <div class="bio container">
+      <div class="bio-img">
+        <img src="img/expert-bio.webp" alt="">
+      </div>
+      <div class="bio-texto">
+        <h1 class="font-h1 c2">Quem será seu professor?</h1>
+        <p class="font-p1 c2">Casado com Karol Tonet, fundador do método “Deixe de ser”, e autor de textos que chegam para mais de <b>2 milhões de pessoas</b> todos os meses, é terapeuta, empresário, professor e escritor.
+        </p>
+        <p class="font-p1 c2">Nos últimos onze anos auxiliou mais de <b>12.000 clientes</b> em processos de consultoria.
+        </p>
+        <p class="font-p1 c2">Academicamente formou-se com láurea na faculdade de direito aos 21 anos, especializando-se em <b>neurociências e ciências comportamentais.</b> </p>
+        <p class="font-p1 c2">Passou por formações nacionais e internacionais que vão desde Coaching até gestão de equipes e processos organizacionais.
+        </p>
+        <p class="font-p1 c2">Hoje CEO de três empresas, usa máximas como “que a dor não seja em vão”, e “tu é mais que um relacionamento ruim”, para lembrar a seus alunos que o <b>futuro pode ser melhor</b>.
+        </p>
+        <a href="#inicio" class="btn font-btn">QUERO PARTICIPAR</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-bg">
+    <p class="font-p1-xs">Todos os direitos reservados | Email: suporte@smcienciasaplicadas.com.br</p>
+    <p class="font-p1-xs">Copyright © 2022 Andre Mariga</p>
+  </footer>
+</body>
+</html>

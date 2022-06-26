@@ -1,0 +1,21 @@
+.font-h1 {
+  font: 700 2.5rem/1.5 "Montserrat", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-p1 {
+  font: 400 1.125rem/1.5 "Montserrat", sans-serif;
+}
+.font-p2 {
+  font: 700 1.125rem/1.5 "Montserrat", sans-serif;
+}
+
+.font-p1-xs {
+  font: 400 0.875rem/1.5 "Montserrat", sans-serif;
+}
+
+
+.font-btn {
+  font: 700 1.5rem/1 "Montserrat", sans-serif;
+  text-transform: uppercase;
+}

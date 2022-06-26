@@ -1,0 +1,120 @@
+.inicio-bg {
+  background-image: url("../img/bg-1.webp");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 790px;
+}
+
+.logo {
+  padding: 100px 0 20px 0;
+}
+
+.inicio h1 {
+  margin-bottom: 12px;
+  padding-top: 40px;
+  max-width: 560px;
+}
+.inicio > p {
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.inicio > p:last-of-type {
+  margin-bottom: 10px;
+}
+
+.inicio-detalhes {
+  margin-bottom: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.gratuito {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.inscricao {
+  max-width: 560px;
+}
+
+form input {
+  height: 50px;
+  width: 400px;
+  background: #dedede;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.form::placeholder {
+  color: #121212;
+  opacity: 1;
+  font-weight: 400;
+}
+
+.dados-seguros {
+  padding-top: 8px;
+  display: flex;
+  gap: 8px;
+  margin-left: 60px;
+}
+
+@media (max-width: 1440px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-1440.webp");
+  }
+}
+@media (max-width: 1024px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-1024.webp");
+  }
+}
+
+@media (max-width: 800px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-800.webp");
+    height: 1100px;
+  }
+  .inicio h1 {
+    padding-top: 370px;
+    line-height: 1.2;
+  }
+
+  .dados-seguros {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 435px) {
+  .inicio-bg {
+    background-image: url("../img/bg-1-435.webp");
+    height: 1300px;
+  }
+
+  .inicio h1 {
+    font-size: 2rem;
+  }
+
+  .inicio-detalhes {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn-form {
+    font-size: 1.125rem;
+  }
+}
